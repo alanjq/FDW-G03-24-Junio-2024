@@ -11,3 +11,11 @@ about:blank
 # Lista de sesiones grabadas
 
 [Todas las sesiones grabadas](https://www.youtube.com/playlist?list=PLXDgesVAFKPYdhD6Uci5YhntNdUjESXWd)
+
+[Sesión 1](https://youtu.be/eVFyc_v7w5w)
+
+[Sesión 2](https://youtu.be/PiWqP_U9hgE)
+
+[Sesión 3](https://youtu.be/fOwKQQSN1GM)
+
+[Sesión 4](https://youtu.be/wqHNhUaikjw)
