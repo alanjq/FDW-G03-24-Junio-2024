@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="accion()">
+        Hacer algo
+    </button>
+</body>
+<script>
+    // Acción del botón
+    function accion() {
+        let datos = obtenerDatos()
+        // Datos validos
+        if (datos) {
+            enviarDatos(JSON.stringify(datos), limpiarFormulario)
+        }
+    }
+
+    function obtenerDatos() {
+        console.log('Datos obtenidos');
+        return ({})
+    }
+    function enviarDatos(formulario, succes) {
+        if (formulario) {
+            // enviar formulario por petición REST
+            if (typeof succes === 'function') {
+                succes()
+                console.log('Datos enviados');
+            }
+        }
+    }
+    function limpiarFormulario() {
+        console.log('Fomulario reseteado');
+    }
+</script>
+
+</html>
