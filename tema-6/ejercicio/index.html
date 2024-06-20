@@ -44,29 +44,29 @@
                         </table>
                     </div>
                     <div class="card-footer">
-                        <div class="row mb-2">
+                        <form id="form" class="row mb-2">
                             <div class="col">
-                                <input type="text" class="form-control mb-2 mr-sm-2" 
-                                    placeholder="Descripcion">
+                                <input type="text" class="form-control mb-2 mr-sm-2"
+                                    placeholder="Descripcion" id="descripcion">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
-                                    placeholder="Calorias">
+                                <input type="number" min="0" class="form-control mb-2 mr-sm-2"
+                                    placeholder="Calorias" id="calorias">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
-                                    placeholder="Carbohidratos">
+                                <input type="number" min="0" class="form-control mb-2 mr-sm-2"
+                                    placeholder="Carbohidratos" id="carbohidratos">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
-                                    placeholder="Proteina">
+                                <input type="number" min="0" class="form-control mb-2 mr-sm-2"
+                                    placeholder="Proteina" id="proteina">
                             </div>
                             <div class="col">
-                                <button class="btn btn-primary mb-2">
+                                <button class="btn btn-primary mb-2" onclick="validarInput()" type="button">
                                     <i class="fas fa-plus"></i>
                                 </button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
