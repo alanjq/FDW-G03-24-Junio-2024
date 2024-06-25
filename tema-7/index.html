@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Este es el formulario <span>HTML</span></h1>
+    <h2>Ejemplo manipuando el <span>dom</span></h2>
+
+    <button onclick="corregirTitulos()">Corregir Títulos</button>
+
+    <hr />
+
+    <div id="frutas">
+        <h2>Frutas</h2>
+        <ol id="listafrutas">
+            <li>Uva</li>
+            <li>Piña</li>
+            <li>Mango</li>
+            <li>Pera</li>
+            <li>Manzana</li>
+        </ol>
+    </div>
+
+    <button onclick="estilosFrutas()">Dar estilo a las frutas</button>
+
+    <script src="index.js"></script>
+    <style>
+        .rojo {
+            background-color: red;
+            color: white;
+        }
+
+        .azul {
+            background-color: azure;
+            color: green;
+            border: 3px solid blue;
+        }
+
+        /* Frutas */
+        div.frutas{
+            padding: 2em;
+            border: 1px solid gray;
+            background-color: rgb(238, 247, 224);
+        }
+        div.frutas h2{
+            color: green;
+        }
+        .Uva {
+            color: maroon
+        }
+
+        .Piña {
+            color: rgb(137, 137, 6);
+        }
+
+        .Mango {
+            color: orange
+        }
+
+        .Pera {
+            color: green
+        }
+
+        .Manzana {
+            color: rgb(200, 106, 106)
+        }
+    </style>
+</body>
+
+</html>
